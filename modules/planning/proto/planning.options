@@ -1,3 +1,0 @@
-* max_size: 64
-* max_count:10
-apollo.planning.ADCTrajectory.trajectory_point max_count: 200
