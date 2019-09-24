@@ -63,9 +63,11 @@ Window {
             id:send_bt
             text: "Send"
             onClicked: {
+                togglebutton.text = qsTr("ESTOP OFF")
+                togglebutton.checked = false
                 if (!timer.running)
                 {
-                    togglebutton.checked = false
+                    
 
                     if (sender.setIpPort(ip_addr.text, port.text))
                     {
@@ -77,7 +79,6 @@ Window {
                 }
                 else
                 {
-                    togglebutton.checked = false
                     timer.running = false;
                     send_bt.text = "Send"
                     ip_addr.enabled = true;
