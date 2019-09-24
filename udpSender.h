@@ -29,7 +29,6 @@ public:
 		pb_msg_->set_allocated_estop(estop_.get());
 	};
 
-
 	~udpSender() = default;
 	bool init();
 	Q_INVOKABLE void setEStop(bool is_estop);

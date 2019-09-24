@@ -111,7 +111,7 @@ Window {
     }
     Timer
     {
-        property int count: 0
+       property int count: 0
        id:timer
        interval: 100;
        running: false;
