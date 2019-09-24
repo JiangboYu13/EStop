@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.5.2, 2019-09-24T04:10:16. -->
+<!-- Written by QtCreator 4.5.2, 2019-09-24T10:29:49. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -367,7 +367,7 @@
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguation.Title">estop</value>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.Arguments"></value>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory"></value>
-    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory.default">/home/jiangbo/src/build-estop-linux-Debug</value>
+    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory.default">/home/jiangbo/src/estop/bin</value>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">estop</value>

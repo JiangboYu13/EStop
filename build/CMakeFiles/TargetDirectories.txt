@@ -1,0 +1,4 @@
+/home/jiangbo/src/estop/build/CMakeFiles/rebuild_cache.dir
+/home/jiangbo/src/estop/build/CMakeFiles/estop.dir
+/home/jiangbo/src/estop/build/CMakeFiles/edit_cache.dir
+/home/jiangbo/src/estop/build/CMakeFiles/estop_autogen.dir

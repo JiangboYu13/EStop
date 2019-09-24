@@ -1,0 +1,28 @@
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jiangbo/src/estop/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ca95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ca95.dir/build.make CMakeFiles/cmTC_1ca95.dir/build
+make[1]: Entering directory '/home/jiangbo/src/estop/bin/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1ca95.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1ca95.dir/CheckIncludeFile.cxx.o -c /home/jiangbo/src/estop/bin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_1ca95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ca95.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1ca95.dir/CheckIncludeFile.cxx.o  -o cmTC_1ca95 
+make[1]: Leaving directory '/home/jiangbo/src/estop/bin/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jiangbo/src/estop/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_521fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_521fd.dir/build.make CMakeFiles/cmTC_521fd.dir/build
+make[1]: Entering directory '/home/jiangbo/src/estop/bin/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_521fd.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_521fd.dir/CheckFunctionExists.cxx.o -c /home/jiangbo/src/estop/bin/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_521fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_521fd.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_521fd.dir/CheckFunctionExists.cxx.o  -o cmTC_521fd -lpthread 
+make[1]: Leaving directory '/home/jiangbo/src/estop/bin/CMakeFiles/CMakeTmp'
+
+
