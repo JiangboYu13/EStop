@@ -102,11 +102,16 @@ Window {
         checked: false
         onClicked:
         {
-            if (checked)
-                togglebutton.text = qsTr("ESTOP ON")
+            if (timer.running)
+            {
+                if (checked)
+                    togglebutton.text = qsTr("ESTOP ON")
+                else
+                    togglebutton.text = qsTr("ESTOP OFF")
+                sender.setEStop(checked)
+            }
             else
-                togglebutton.text = qsTr("ESTOP OFF")
-            sender.setEStop(checked)
+                checked = false
         }
     }
     Timer
