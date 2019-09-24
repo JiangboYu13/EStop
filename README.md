@@ -47,8 +47,9 @@
 	foo@bar:~ $ cd ../bin
 	foo@bar:~ $ ./estop
 ```
-Enter ip address and port number for destination and then click send. 
-Click the circle button to togglle estop state during sending. 
+	- Enter ip address and port number for destination and then click send. 
+	- Click the circle button to togglle estop state during sending. 
+
 ![screenshot][screenshot]
 	
 
